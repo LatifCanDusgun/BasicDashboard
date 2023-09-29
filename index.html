@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Dashboard</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="Js/index.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <a href="#">
+                <img src="img/logo.svg" alt="">
+            </a>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Tasks</a>
+                </li>
+                <li>
+                    <a href="#">Files</a>
+                </li>
+                <li>
+                    <a href="#">Teams</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="storage">
+            <div class="storage-title">
+                <div>
+                    <i class="fa fa-cloud"></i>
+                    Storage
+                </div>
+                <div class="percent">60%</div>
+            </div>
+            <div class="storage-bar">
+                <span style="width: 60%;"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+
+        <div class="inner">
+
+            <div class="search">
+                <input type="text" placeholder="Search..">
+                <label>
+                    <i class="fa fa-search"></i>
+                </label>
+            </div>
+
+            <div class="inner-box">
+                <div class="content-title">
+                    <h4>Projects</h4>
+                    <a href="#">
+                        Wiew All
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="projects">
+                    <a href="#" class="box active">
+                        <span class="box-top">
+                            <i class="fa fa-folder"></i>
+                            <span class="box-shared">
+                                <img src="img/team1.jpg" alt="">
+                                <img src="img/team2.jpg" alt="">
+                                <img src="img/latifcan.jpg" alt="">
+                            </span>
+                        </span>
+                        <span class="box-title">
+                            <span class="name">Necleus Tech</span>
+                            <span class="task">16 tasks</span>
+                        </span>
+                        <span class="box-bar">
+                            <span style="width: 70%;" title="70%">
+
+                            </span>
+                        </span>
+                    </a>
+                    <a href="#" class="box active">
+                        <span class="box-top">
+                            <i class="fa fa-folder-plus"></i>
+                            <span class="box-shared">
+                                <img src="img/team1.jpg" alt="">
+                                <img src="img/team2.jpg" alt="">
+                            </span>
+                        </span>
+                        <span class="box-title">
+                            <span class="name">Summit AI</span>
+                            <span class="task">8 tasks</span>
+                        </span>
+                        <span class="box-bar">
+                            <span style="width: 80%;" title="80%">
+
+                            </span>
+                        </span>
+                    </a>
+                    <a href="#" class="box empty">
+                    
+                        <i class="fa fa-plus"></i>
+                        <span class="text">Add New Project</span>
+                      </a>
+                </div>
+            </div>
+            
+            <div class="inner-box">
+                <div class="content-title">
+                    <h4>Recent</h4>
+                    <a href="#">
+                        Wiew All
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="recents">
+                    <ul>
+                        <li>
+                            <a href="#" class="link">
+                                <i class="fa fa-folder"></i>
+                                Desing Assest
+                            </a>
+                            <div class="visibility">
+                                Only You
+                            </div>
+                            <div class="size">
+                                2.4 GB
+                            </div>
+                            <div class="more">
+                                <i class="fa fa-ellipsis"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <i class="fa fa-folder"></i>
+                                Contracts
+                            </a>
+                            <div class="visibility">
+                                Only You
+                            </div>
+                            <div class="size">
+                               318 MB
+                            </div>
+                            <div class="more">
+                                <i class="fa fa-ellipsis"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <i class="fa fa-folder"></i>
+                                Team Photos
+                            </a>
+                            <div class="visibility">
+                                5 members
+                            </div>
+                            <div class="size">
+                                1,6 GB
+                            </div>
+                            <div class="more">
+                                <i class="fa fa-ellipsis"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <i class="fa fa-music icon"></i>
+                                01-Beatiful_People.mp3
+                            </a>
+                            <div class="visibility">
+                                Only You
+                            </div>
+                            <div class="size">
+                                6.9 MB
+                            </div>
+                            <div class="more">
+                                <i class="fa fa-ellipsis"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <i class="fa fa-microphone icon"></i>
+                                Memo_Nucleus_Meeting.mp3
+                            </a>
+                            <div class="visibility">
+                                5 members
+                            </div>
+                            <div class="size">
+                                24.5 MB
+                            </div>
+                            <div class="more">
+                                <i class="fa fa-ellipsis"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/latifcan.jpg" alt="">
+                                Ladifi_Photo_Aug_2019.jpg
+                            </a>
+                            <div class="visibility">
+                                Only You
+                            </div>
+                            <div class="size">
+                                824 MB
+                            </div>
+                            <div class="more">
+                                <i class="fa fa-ellipsis"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+        <div class="rightbar">
+            
+            <div class="top-side">
+                <i class="far fa-bell">
+                    <span></span>
+                </i>
+
+                <i class="fa fa-chart-pie"></i>
+
+                <span>James</span>
+
+                <i class="fa fa-chevron-down"></i>
+
+            </div>
+            
+            <div class="inner">
+                <div class="content-title">
+                    <h6>Activities</h6>
+                </div>
+                <div class="notification">
+                    <ul>
+                        <li>
+                            <div class="notification-info">
+                                <span class="bell"></span>
+                                <div class="text"><span class="bolder-text"></span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+    </div>
+</body>
+</html>
